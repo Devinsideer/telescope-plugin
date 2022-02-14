@@ -1,0 +1,33 @@
+{
+    "name": "devinside/telescope-plugin",
+    "description": "Laravel Telescope integration for OctoberCMS.",
+    "homepage": "https://github.com/devinside/telescope-plugin",
+    "type": "october-plugin",
+    "license": "proprietary",
+    "keywords": ["october", "telescope"],
+    "authors": [
+        {
+            "name": "Devinside",
+            "email": "admin@devinside.ru",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "laravel/telescope": "4.*"
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "laravel/telescope"
+            ]
+        }
+    },
+    "archive": {
+        "exclude": [
+            ".github",
+            ".gitignore",
+            ".idea/",
+            ".gitlab-ci.yml"
+        ]
+    }
+}

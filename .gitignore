@@ -1,0 +1,4 @@
+/vendor
+composer.lock
+.gitlab-ci.yml
+SECURITY.md
